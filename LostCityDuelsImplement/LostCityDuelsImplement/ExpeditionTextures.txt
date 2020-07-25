@@ -1,0 +1,5 @@
+gold.jpg
+blue.jpg
+white.jpg
+green.jpg
+red.jpg

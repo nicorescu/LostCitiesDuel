@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{008361cc-b108-4436-b823-dbe3687cc1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functionality">
+      <UniqueIdentifier>{be82a0ca-3614-45a3-80a8-6503b0b56597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functionality">
+      <UniqueIdentifier>{4f56c910-8460-417f-bc8d-be0916d59606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{486afb69-ec2a-48b7-ba3c-ee0cad4b7df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatesCpp">
+      <UniqueIdentifier>{5b243b8e-9c22-4967-b906-ef3f7fc975bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{5ae7c503-51b3-45bd-b7e4-bfe06f798143}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Expedition.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardDisplay.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CardRender.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpeditionRender.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="LostCityDuelGame.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="LostCityDuelsImplement.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRender.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="WinState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSelectionState.cpp">
+      <Filter>StatesCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Expedition.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="LostCityDuelGame.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardDisplay.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CardRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpeditionRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="WinState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="NameSelectionState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Config.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="DiscardPileTextures.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="ExpeditionTextures.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

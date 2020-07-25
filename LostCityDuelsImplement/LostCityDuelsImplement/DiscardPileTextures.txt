@@ -1,0 +1,5 @@
+GoldenPile.jpg
+BluePile.jpg
+WhitePile.jpg
+GreenPile.jpg
+RedPile.jpg
